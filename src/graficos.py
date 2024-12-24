@@ -2,7 +2,7 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-class Graficos:
+class GraficosSencillos:
     """Clase que facilita la creación de gráficos con seaborn y matplotlib"""
 
     def __init__(self, df, titulo_01, titulo_02, titulo, punto='X'):
