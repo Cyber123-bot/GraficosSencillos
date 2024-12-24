@@ -14,3 +14,7 @@ ingresos_mes.crearGraficoBarra()
     
 # Creamos un gráficos de linea
 ingresos_mes.crearGraficoLinea()
+
+# Creamos un gráficos de barra y linea con crearGraficos
+ingresos_mes.crearGrafico(tipo="barra")
+ingresos_mes.crearGrafico(tipo="linea")
