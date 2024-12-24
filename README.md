@@ -1,6 +1,6 @@
 ## GraficosSencillos
 
-Este proyecto facilita la creación de gráficos con seaborn y matplotlib.
+Este proyecto facilita la creación de gráficos personalizables con seaborn y matplotlib.
 
 ## Requisitos
 

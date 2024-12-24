@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 class GraficosSencillos:
-    """Clase para crear gráficos con seaborn y matplotlib"""
+    """Clase para crear gráficos personalizables con seaborn y matplotlib"""
 
     def __init__(self, df, titulo_01, titulo_02, titulo, punto='X'):
         """Inicializa los parámetros y valida las columnas del DataFrame"""
