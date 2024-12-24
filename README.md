@@ -5,7 +5,7 @@ Este proyecto facilita la creación de gráficos con seaborn y matplotlib.
 ## Requisitos
 
 - `Python 3.x`
-- Módulo `pandas` (para las pruebas del `test.py`)
+- Módulo `pandas` (para las pruebas de `src/test.py`)
 - Módulo `seaborn`
 - Módulo `matplotlib`
 
