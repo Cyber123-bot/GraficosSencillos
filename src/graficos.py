@@ -2,9 +2,6 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Libreria necesaria para la prueba
-import pandas as pd
-
 class Graficos:
     """Clase que facilita la creación de gráficos con seaborn y matplotlib"""
 
