@@ -5,9 +5,10 @@ Este proyecto facilita la creación de gráficos personalizables con seaborn y m
 ## Requisitos
 
 - `Python 3.x`
-- Módulo `pandas` (para las pruebas de `src/pruebas.py`)
+- Módulo `pandas`
 - Módulo `seaborn`
 - Módulo `matplotlib`
+- Módulo `unittest`
 
 ## Instalación
 
@@ -22,7 +23,7 @@ Este proyecto facilita la creación de gráficos personalizables con seaborn y m
 
 ## Uso
 
-Para usar la clase `GraficosSencillos`, primero debes importar las librerías necesarias y crear una instancia de la clase con los parámetros adecuados (para más información consultar `src/pruebas.py`)
+Para usar la clase `GraficosSencillos`, primero debes importar las librerías necesarias y ejecutar el archivo `src/pruebas.py`.
 
 ## Parámetros de la clase
 
@@ -37,6 +38,9 @@ Para usar la clase `GraficosSencillos`, primero debes importar las librerías ne
 - `crearGraficoBarra(color='skyblue')`: Crea un gráfico de barras.
 - `crearGraficoLinea(color='blue', estilo='-', grosor=2)`: Crea un gráfico de líneas.
 - `crearGrafico(tipo='barra', **kwargs)`: Crea un gráfico de barras o líneas dependiendo del tipo especificado.
+
+## Testeo
+Para asegurarte de que todo funciona correctamente puedes ejecutar el archivo `src/test.py`
 
 ## Estilos de marcadores
 

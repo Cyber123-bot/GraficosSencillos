@@ -34,14 +34,21 @@ class GraficosSencillos:
         sns.lineplot(data=self.df, x=self.titulo_01, y=self.titulo_02, 
                      marker=self.punto, color=color, linestyle=estilo, linewidth=grosor)
         plt.title(self.titulo)  # Asigna el título del gráfico
+        plt.xticks(rotation=45)  # Rota las etiquetas del eje X para mayor legibilidad
         plt.tight_layout()  # Ajusta el diseño para evitar que las etiquetas se corten
         plt.show()  # Muestra el gráfico
         
     def crearGrafico(self, tipo='barra', **kwargs):
         """Crea un gráfico de barras o líneas dependiendo del tipo"""
-        if tipo == 'barra':
-            return self.crearGraficoBarra(**kwargs)
-        elif tipo == 'linea':
-            return self.crearGraficoLinea(**kwargs)
-        else:
+        # Mapeo de tipos a funciones para mejor extensibilidad
+        tipos_graficos = {
+            'barra': self.crearGraficoBarra,
+            'linea': self.crearGraficoLinea
+        }
+
+        # Selección y ejecución del tipo de gráfico
+        try:
+            grafico_func = tipos_graficos[tipo]
+            grafico_func(**kwargs)
+        except KeyError:
             raise ValueError("El tipo de gráfico debe ser 'barra' o 'linea'.")
