@@ -3,7 +3,7 @@
 ¡Gracias por tu interés en contribuir a GraficosSencillos! Aquí hay algunas formas en las que puedes ayudar:
 
 ## Reportar Problemas
-Si encuentras un error o quieres sugerir una nueva característica, abre un issue en [GitHub](https://github.com/Cyber123-bot/GraficosSencillos/issues).
+Si encuentras un error o quieres sugerir una nueva característica, abre un [issue en GitHub](https://github.com/Cyber123-bot/GraficosSencillos/issues).
 
 ## Sugerir Mejoras
 Si tienes una idea para mejorar el proyecto no dudes en contactarme a mi correo [cyber123.bot@gmail.com].
